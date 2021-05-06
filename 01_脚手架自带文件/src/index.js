@@ -5,9 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
+  // React.StrictMode用户检查App里面的代码是否正确
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>,  
   document.getElementById('root')
 );
 
